@@ -2,9 +2,6 @@
   "extends": [
     "stylelint-config-recommended"
   ],
-  "plugins": [
-    "stylelint-order"
-  ],
   "rules": {
     "block-no-empty": null,
     "color-no-invalid-hex": true,
@@ -30,7 +27,6 @@
       }
     ],
     "selector-pseudo-class-no-unknown": true,
-    "selector-pseudo-element-no-unknown": true,
-    "order/properties-alphabetical-order": true
+    "selector-pseudo-element-no-unknown": true
   }
 }
