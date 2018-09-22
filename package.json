@@ -1,10 +1,9 @@
 {
   "name": "start-here",
   "version": "0.1.0",
-  "homepage": "https://nikosolihin.github.io/coding-help/",
   "scripts": {
     "start": "blendid",
-    "build": "blendid gh-pages"
+    "build": "blendid build"
   },
   "dependencies": {
     "blendid": "^4.4.3"
