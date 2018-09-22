@@ -1,0 +1,21 @@
+{
+  "name": "start-here",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "blendid"
+  },
+  "dependencies": {
+    "blendid": "^4.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.5.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-order": "^1.0.0"
+  }
+}
