@@ -6,6 +6,7 @@
     "build": "blendid build"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "blendid": "^4.4.3"
   },
   "devDependencies": {
