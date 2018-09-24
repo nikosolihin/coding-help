@@ -17,7 +17,7 @@
     "no-duplicate-selectors": true,
     "no-empty-source": true,
     "no-extra-semicolons": true,
-    "number-leading-zero": "always",
+    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "rule-empty-line-before": [
       "always",
@@ -27,6 +27,12 @@
       }
     ],
     "selector-pseudo-class-no-unknown": true,
-    "selector-pseudo-element-no-unknown": true
+    "selector-pseudo-element-no-unknown": true,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extend", "at-root", "debug", "warn", "error", "if", "else", "for", "each", "while", "mixin", "include", "content", "return", "function"]
+      }
+    ]
   }
 }
