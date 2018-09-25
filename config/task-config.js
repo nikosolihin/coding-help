@@ -1,11 +1,23 @@
 module.exports = {
-  html: true,
   images: false,
   fonts: false,
   static: true,
   svgSprite: false,
   ghPages: true,
-  stylesheets: true,
+
+  html: {
+    // htmlmin: {}
+  },
+
+  stylesheets: {
+    autoprefixer: {
+      browsers: ['last 3 versions'],
+    },
+    sass: {
+      // includePaths: ['./node_modules', 'node_modules'],
+      outputStyle: 'compressed',
+    },
+  },
 
   javascripts: {
     entry: {
@@ -13,6 +25,10 @@ module.exports = {
       // javascripts.dest in path-config.json
       app: ['./app.js'],
     },
+    // babel: {
+    //   presets: [['es2015', { modules: false }], 'stage-1'],
+    //   plugins: ['transform-class-properties'],
+    // },
   },
 
   browserSync: {

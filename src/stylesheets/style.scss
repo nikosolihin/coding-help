@@ -13,7 +13,6 @@
  * GENERIC
  * Includes all the 3rd-party CSS used throughout the site.
  */
-@import '~sanitize.css';
 @import "base/fontface";
 
 /**
@@ -40,8 +39,3 @@
  * Utilities overrides and helper classes
  */
 @import "base/trumps";
-
-/**
- * The Emmet cheatsheet is helpful when writing CSS:
- * https://docs.emmet.io/cheat-sheet/
- */
