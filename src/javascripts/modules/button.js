@@ -1,4 +1,4 @@
-export default class Disappear {
+export default class Button {
   constructor(el) {
     this.el = el;
     el.addEventListener('click', this.hide);

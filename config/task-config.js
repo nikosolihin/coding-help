@@ -25,10 +25,6 @@ module.exports = {
       // javascripts.dest in path-config.json
       app: ['./app.js'],
     },
-    // babel: {
-    //   presets: [['es2015', { modules: false }], 'stage-1'],
-    //   plugins: ['transform-class-properties'],
-    // },
   },
 
   browserSync: {
